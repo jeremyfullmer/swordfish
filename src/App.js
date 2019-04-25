@@ -1,19 +1,19 @@
 import React, { Component } from 'react';
 import Routing from './Routing'
-import './index.css';
-import { Link } from "@reach/router"
 
+import { Link } from "@reach/router"
+import { library } from '@fortawesome/fontawesome-svg-core'
+
+import { faStroopwafel } from '@fortawesome/free-solid-svg-icons'
+import '@fortawesome/fontawesome-free/css/all.min.css';
+import 'bootstrap-css-only/css/bootstrap.min.css';
+import 'mdbreact/dist/css/mdb.css';
+library.add(faStroopwafel)
 class App extends Component {
   render() {
     return (
       <div className="App">
-{/* ask about the stylesheet */}
-<link
-  rel="stylesheet"
-  href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-  crossorigin="anonymous"
-/>
+
 
       <nav>
         <li>
